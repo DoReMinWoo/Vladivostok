@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/trip_main3"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="100dp"
+            android:layout_marginTop="100dp"
+            android:textSize="50dp"
+            android:textColor="@color/black"
+            android:text="Владивосток"/>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@color/trip"
+            android:text="여행지" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@color/food"
+            android:text="맛집" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@color/enjoy"
+            android:text="즐길거리" />
+</LinearLayout>
